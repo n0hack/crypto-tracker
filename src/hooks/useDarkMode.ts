@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { ThemeType } from './../Types';
 
 export const useDarkMode = (): [ThemeType, () => void] => {
-  const [theme, setTheme] = useState<ThemeType>('light');
+  const [theme, setTheme] = useState<ThemeType>('dark');
   const toggleTheme = () => {
     if (theme === 'light') {
       window.localStorage.setItem('theme', 'dark');
