@@ -7,14 +7,10 @@ import { ThemeType } from '../Types';
 import Title from './Title';
 
 const HeaderBlock = styled.div`
-  padding-top: 4rem;
+  padding-top: 1rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
-
-  @media (max-width: 768px) {
-    padding-top: 2rem;
-  }
 `;
 
 const Button = styled.button`
